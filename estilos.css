@@ -1,0 +1,252 @@
+
+        .cartita1{
+            position: relative;
+            flex: 0 0 0%;
+        }
+        .cartita2{
+            position: relative;
+            flex: 0 0 0%
+        }
+           
+        .card-body{
+            background-color: #2A2A2A;
+        }
+        .cartas{
+            color:#24EBCA;
+            display: inline-flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 5%;
+
+        }
+        .card{
+            width: 23rem;
+            text-align: center;
+            border-color: #24EBCA;
+            justify-content: center;
+            margin-bottom: 3%;
+        }
+        .nombre{
+        color: white;         
+        margin-left: 12%;
+        padding-top: 5%;
+        font-family: 'Courier New';
+        font-size: 80px;
+        }
+        .profesion{
+            text-align: center;
+            font-size: 35px;
+            color: #24EBCA;
+            padding-top: 5%;
+            float: right;
+            margin-right: 10%;
+            font-family: 'Courier New';
+        }
+        .bienvenida{
+            font-size: 35px;
+            padding-top: 2%;
+            text-align: center;
+            color: white;         
+            font-family: 'Courier New';
+
+        }
+        .detalle{
+            color: #24EBCA;
+        }
+        body{
+            min-height:100vh;
+        }
+        .total{
+            min-height:100vh;
+        }
+        .total2{
+            min-height: 100vh;
+        }
+        .menu{
+            background-color: #2A2A2A;
+            text-align: center;
+            color: white;
+        }
+        .logo{
+            padding-top: 10%;
+            color: #24EBCA;
+            padding-bottom: 20%;
+            font-family: 'Courier New';
+            font-size: 70px;
+
+        }
+        .nav-link {
+            color: white;
+            padding-bottom: 10%;
+            margin-top: 10%;
+        }
+        a.nav-link.active{
+            color: #24EBCA;
+        }
+        a.nav-link:hover{
+            color: #24EBCA;
+        }
+        .contenido{
+            background-color: #283747;
+        }
+        .abajo{
+            position:absolute;
+            bottom: 8%;
+            left: 6%;
+        }
+        .img-fluid{
+            width: 50px;
+            padding-bottom: 10%;
+        }
+        .menu-secund{
+            background-color: #2A2A2A ;
+            display: none;
+            max-height: 100vh;
+        }
+        .enlaces{
+            font-size: 25px;
+        }
+        .btn-menu{
+            margin-top: 10%;
+            float: right;
+            border-color: #24EBCA;
+        }
+        .capaMenu{
+            display:none;
+            position: absolute;
+            z-index: 100;
+            background-color: #283747;
+            opacity: 90%;
+            max-height: 100vh;
+        }
+        .menu-escondido{
+            text-align: center;
+            color: #24EBCA;
+            padding: 0%;
+            padding-top: 5%;
+            margin: 0%;
+        }
+        .icon-esc{
+            padding: 0%;
+            padding-top: 8%;
+            margin: 0%;
+        }
+
+        /*Sobre Mi*/
+        .titulo{
+            text-align: center;
+            color:white;
+            font-size: 80px;
+            font-family: 'Courier New';
+        }
+        .subrayado{
+            color: #24EBCA;
+            width: 50%;
+            margin-left: 25%;
+            height: 1vh;
+        }
+        .contSobre{
+            color:white;
+            text-align: center;
+            font-family: 'Courier New';
+        }
+        .foto{
+            width: 35%;
+            text-align: center;
+        }
+        .foto-text{
+            text-align: center;
+        }
+        .pie{
+            font-family: 'Courier New';
+            color: white;
+            text-align: center;
+            float: bottom;
+            margin-top: 4%;
+        }
+        .contactame{
+            background-color:  #24EBCA;
+            border-radius: 35em;
+
+        }
+        /*Contactame*/
+
+        .titu-Contacto{
+            margin-top: 3%;
+            text-align: center;
+            font-family: 'Courier New';
+            color: #24EBCA;
+            font-size: 70px;
+        }
+        .formulario{
+            margin-top: 5%;
+            color: white;
+            padding-left: 5%;
+            font-family: 'Courier New';
+        }
+        .form-control{
+            margin-bottom: 1%;
+            margin-bottom: 1%;
+            width: 100%;
+            
+        }
+
+        .boton-formulario{
+            border-color:#2A2A2A;
+            text-align: center;
+            width: 12em;
+            background-color: #24EBCA;
+            color: black;
+            border-radius: 35em;
+        }
+        .pos-btn{
+            text-align: center;
+        }
+        .contacto{
+            padding-top: 3%;
+        }
+
+
+        /*Medias querys*/
+     
+        @media (max-width: 972px) {
+            .nombre{
+                font-size: 50px;
+            }
+        .menu {
+        display: none;
+        }
+        .contenido{
+            width: 100%;
+        }
+        .menu-secund{
+            display: block;
+            height: 10vh;
+        }
+        .textoMi{
+            font-size: 80%;
+        }
+        .foto{
+            width: 50%;
+        }
+        .titulo{
+            font-size: 50px;
+        }
+        .titu-Contacto{
+            font-size: 50px;
+        }
+        .card{
+            width: 19rem;
+        }
+        .cartita1{
+        margin: 0%;
+        }
+        .cartita2{
+            margin: 0%;
+            }
+           .cartas{
+               justify-content: center;
+           } 
+  }
+

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css" MEDIA=screen>
+    <title>FJMM-Contactame</title>
+</head>
+<body>
+ <div onclick="quitaSubMenu()" class="container-fluid total capaMenu" id="capaMenu">  
+        <div class="menu-escondido">
+            <nav class="nav flex-column">
+                <a class="nav-link icon-esc" aria-current="page" href="\Trabajo Interfaces\Inicio.html"><p class="h4 enlaces">Inicio</p></a>
+                <a class="nav-link active icon-esc" href="#"><p class="h4 enlaces">Contactame</p></a>
+                <a class="nav-link icon-esc" href="\Trabajo Interfaces\SobreMi.html"><p class="h4 enlaces">Sobre Mi</p></a>
+                <a class="nav-link icon-esc" href="https://www.instagram.com/francisco__jmm/?hl=es"><img class="img-fluid" src="\Trabajo Interfaces\Instagram.png"></a>
+                <a class="nav-link icon-esc" href="https://twitter.com/FranjMorilloM"><img class="img-fluid" src="\Trabajo Interfaces\gorjeo.png"></a>
+            </nav>
+        </div>
+    </div>
+    
+  
+    <div class="container-fluid total">
+      <div class="row total">
+          <div class="col-2 menu">
+              <p class="h1 logo">FJMM</p>
+         
+              <nav class="nav flex-column">
+                  <a class="nav-link" aria-current="page" href="\Trabajo Interfaces\Inicio.html"><p class="h4 enlaces">Inicio</p></a>
+                  <a class="nav-link active" href="#"><p class="h4 enlaces">Contactame</p></a>
+                  <a class="nav-link" href="\Trabajo Interfaces\SobreMi.html"><p class="h4 enlaces">Sobre Mi</p></a>
+                  <div class="abajo">
+                  <a class="nav-link" href="https://www.instagram.com/francisco__jmm/?hl=es"><img class="img-fluid" src="\Trabajo Interfaces\Instagram.png"></a>
+                  <a class="nav-link" href="https://twitter.com/FranjMorilloM"><img class="img-fluid" src="\Trabajo Interfaces\gorjeo.png"></a>
+                  </div>
+                </nav>
+          </div>
+                <div class="col-10 contenido">
+                    <div class="row menu-secund">
+                        <div class="col-2" style="float: right;" >
+                            <button type="button" onclick="abrirSubMenu()" class="btn btn-outline-success btn-menu"><img src="\Trabajo Interfaces\menus.png"></img></button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                        <h1 class="h1 titu-Contacto">Contactame</h1>
+                    </div>
+                    </div>
+
+
+
+                    <form class="formulario">
+                        <div class="row">
+                        <div class="col">
+                        <p class="h3">
+                            Correo :
+                        </p>
+                        <div class="col">
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        </div>
+                        </div>
+                        </div>
+
+
+                        <div class="col">
+                            <h3 class="h3">
+                                Nombre :    <input type="email" class="form-control" id="nombre" aria-describedby="emailHelp">
+                            </h3>
+                            </div>
+                            <div class="col">
+                                <h3 class="h3">
+                                    Telefono : <input type="email" class="form-control" id="telefono" aria-describedby="emailHelp">
+                                </h3>
+                                </div>
+
+                                <div class="col contacto">
+                                    <h3 class="h3" style="text-align: center;">
+                                        Motivo del Contacto : <textarea class="form-control" id="textArea" rows="7"></textarea>
+                                    </h3>
+                                    </div>
+                          <div class="pos-btn">          
+                            <button type="button" class="btn btn-primary boton-formulario"><b>Enviar</b></button>
+                        </div>
+                      </form>
+
+
+                    </div>
+
+          </div>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+          </body>
+                <script>
+                   function abrirSubMenu()
+                    {
+                        document.getElementById("capaMenu").style.display="block";
+                    }
+                    function quitaSubMenu(){
+                        document.getElementById("capaMenu").style.display="none";
+                    }
+                </script>
+
+          </html>
